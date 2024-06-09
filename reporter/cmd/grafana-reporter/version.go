@@ -20,4 +20,4 @@ package main
 const generatedMajor = "2"
 const generatedMinor = "3"
 const generatedRelease = "0"
-const generatedGitHash = "55fa86562bfa2baba47c28687af9f4c19635cf47"
+const generatedGitHash = "98e2014e470ccbfac22e73700ac1c90a64a9983a"
