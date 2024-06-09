@@ -26,10 +26,10 @@ clean:
 
 .PHONY: docker-build
 docker-build:
-	@docker build -t izakmarais/grafana-reporter:2.3.0 -t izakmarais/grafana-reporter:latest .
+	@docker build -t kirus3734/grafana-renderer/grafana-reporter:2.3.0 -t kirus3734/grafana-renderer/grafana-reporter:latest .
 
 docker-push:
-	@docker push izakmarais/grafana-reporter
+	@docker push kirus3734/grafana-renderer/grafana-reporter
 
 .PHONY: test
 test: $(TARGET)
